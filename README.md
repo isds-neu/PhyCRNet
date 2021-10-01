@@ -12,20 +12,28 @@ By: [Pu Ren](https://scholar.google.com/citations?user=7FxlSHEAAAAJ&hl=en), [Che
 - Employ hard-encoding of intial and boundary conditions
 - Incorporate autoregressive and residual connections to explicitly simulate the time marching
 
-We demonstrate excellent solution accuracy, extrapolability and generalizability on three nonlinear PDEs as follows.
+
+
+### Traing and Extrapolation
+
+Here we show the comparison between PhyCRNet and PINN on 2D Burgers' equaions below. The left figure is ground truth, and the middle one is the result from our PhyCRNet. The right Gif presents the result from PINNs, which shows inferior performance in the extrapolation.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/55661641/135552658-c3c2c955-dc12-4995-8451-d3f524af1405.gif" width="512">
+</p>
 
 
 
-1. Traing and Extrapolation 
+### Generalization
 
-2D Burgers' equaions, $\Lambda$-$\Omega$ reaction diffusion equations, and FitzHuge-Nagumo reaction diffusion eqautions.
+We show the generalization test on FitzHuge-Nagumo reaction diffusion eqautions with four different initial conditions. The left and right parts are ground truth generated with the high-order finite difference method and our PhyCRNet, respectively.
 
-2. Generalization
-
-FitzHuge-Nagumo reaction diffusion eqautions
-
-
-insert figure here ...
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/55661641/135554104-ef5ee5dd-a707-4448-9634-89b23a4c8858.gif" width="230">
+  <img src="https://user-images.githubusercontent.com/55661641/135554152-ab0d830e-e2eb-489e-8faf-8b9298072a36.gif" width="230">
+  <img src="https://user-images.githubusercontent.com/55661641/135554156-efd65c12-2ab2-4ceb-bb3e-719cdf636710.gif" width="230">
+  <img src="https://user-images.githubusercontent.com/55661641/135554165-1d4f9d41-795f-4d4d-b7fa-0299b2c45fca.gif" width="230">
+</p>
 
 
 
