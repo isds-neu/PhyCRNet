@@ -47,10 +47,12 @@ We show the generalization test on FitzHugh-Nagumo reaction-diffusion equations 
 
 We provide the codes for data generation used in this paper, including 2D Burgers' equations and 2D FitzHugh-Nagumo reaction-diffusion equations. They are coded in the high-order finite difference method. Besides, the code for random field is modified from [[Link](https://github.com/zongyi-li/fourier_neural_operator/tree/master/data_generation/navier_stokes)]. 
 
-The datasets tested in this paper are also provided in the file **Datasets**.
+The initial conditions tested in this paper are also provided in the folder **Datasets**.
 
 ## Codes
-todo
+
+The general code for PhyCRNet is provided in the folder **Code**, where we use 2D Burgers' equations as an testing example. For other PDE systems, the network setting is similar. You may try modifying the grid sizes and time steps to your own cases.
+
 
 ## Citation
 If you find our research helpful, please consider citing us with：
