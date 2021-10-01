@@ -51,7 +51,7 @@ The initial conditions tested in this paper are also provided in the folder **Da
 
 ## Codes
 
-The general code for PhyCRNet is provided in the folder **Code**, where we use 2D Burgers' equations as an testing example. For other PDE systems, the network setting is similar. You may try modifying the grid sizes and time steps to your own cases.
+The general code for PhyCRNet is provided in the folder **Codes**, where we use 2D Burgers' equations as an testing example. For other PDE systems, the network setting is similar. You may try modifying the grid sizes and time steps to your own cases.
 
 
 ## Citation
