@@ -45,7 +45,7 @@ We show the generalization test on FitzHugh-Nagumo reaction-diffusion equations 
 
 ## Datasets
 
-We provide the codes for data generation used in this paper, including 2D Burgers' equations and 2D FitzHugh-Nagumo reaction-diffusion equations. They are coded in the high-order finite difference method. Besides, the code for random field is modified from [[Link](https://github.com/zongyi-li/fourier_neural_operator/tree/master/data_generation/navier_stokes)]. You may find the data solver for $\lambda$ - $\Omega$ reaction-diffusion equations in [Link](https://github.com/snagcliffs/PDE-FIND/tree/master/Datasets).
+We provide the codes for data generation used in this paper, including 2D Burgers' equations and 2D FitzHugh-Nagumo reaction-diffusion equations. They are coded in the high-order finite difference method. Besides, the code for random field is modified from [[Link](https://github.com/zongyi-li/fourier_neural_operator/tree/master/data_generation/navier_stokes)]. You may find the data solver for λ-ω reaction-diffusion equations in [[Link](https://github.com/snagcliffs/PDE-FIND/tree/master/Datasets)]. 
 
 The initial conditions tested in this paper are also provided in the folder **Datasets**.
 
