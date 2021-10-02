@@ -41,7 +41,7 @@ We show the generalization test on FitzHugh-Nagumo reaction-diffusion equations 
 
 - Python 3.6.13
 - [Pytorch](https://pytorch.org/) 1.6.0
-- Other packages such as *Matplotlib, Numpy and Scipy* are also used
+- Other packages, such as *Matplotlib, Numpy and Scipy*, are also used
 
 ## Datasets
 
