@@ -16,7 +16,7 @@ By: [Pu Ren](https://scholar.google.com/citations?user=7FxlSHEAAAAJ&hl=en), [Che
 
 ### Training and Extrapolation
 
-We show the comparison between PhyCRNet and PINN on 2D Burgers' equations below. The left, middle and right figures are the ground truth, the result from our PhyCRNet and the result from PINNs respectively.
+Here we show the comparison between PhyCRNet and PINN on 2D Burgers' equations below. The left, middle and right figures are the ground truth, the result from our PhyCRNet and the result from PINNs respectively.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/55661641/135552658-c3c2c955-dc12-4995-8451-d3f524af1405.gif" width="512">
