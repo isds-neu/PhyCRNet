@@ -53,6 +53,7 @@ The initial conditions tested in this paper are also provided in the folder **Da
 
 The general code of PhyCRNet is provided in the folder **Codes**, where we use 2D Burgers' equations as a testing example. For other PDE systems, the network setting is similar. You may try modifying the grid sizes and time steps to your own cases.
 
+It is important to pretrain the network from a small number of time steps (e.g., 100) and then gradually train on a longer dynamical evolution. Taking 2D Burgers' equation as an example, we pretrain the model from 100, then 200 and 500, and finally 1000. The model is able to extrapolate for at least another 1000 time steps.
 
 ## Citation
 If you find our research helpful, please consider citing us with：
