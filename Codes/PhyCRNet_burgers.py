@@ -40,9 +40,9 @@ partial_x = [[[[0, 0, 1/12, 0, 0],
 def initialize_weights(module):
     ''' starting from small initialized parameters '''
     if isinstance(module, nn.Conv2d):
-        c = 1
-        module.weight.data.uniform_(-c*np.sqrt(1 / (3 * 3 * 320)), 
-            c*np.sqrt(1 / (3 * 3 * 320)))
+        c = 0.1
+        module.weight.data.uniform_(-c*np.sqrt(1 / np.prod(module.weight.shape[:-1])),
+                                     c*np.sqrt(1 / np.prod(module.weight.shape[:-1])))
      
     elif isinstance(module, nn.Linear):
         module.bias.data.zero_()
