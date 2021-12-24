@@ -59,10 +59,13 @@ It is important to pretrain the network from a small number of time steps (e.g.,
 If you find our research helpful, please consider citing us with：
 
 ```
-@article{ren2021phycrnet,
-  title={PhyCRNet: Physics-informed Convolutional-Recurrent Network for Solving Spatiotemporal PDEs},
-  author={Ren, Pu and Rao, Chengping and Liu, Yang and Wang, Jianxun and Sun, Hao},
-  journal={arXiv preprint arXiv:2106.14103},
-  year={2021}
+@article{ren2022phycrnet,
+  title={PhyCRNet: Physics-informed convolutional-recurrent network for solving spatiotemporal PDEs},
+  author={Ren, Pu and Rao, Chengping and Liu, Yang and Wang, Jian-Xun and Sun, Hao},
+  journal={Computer Methods in Applied Mechanics and Engineering},
+  volume={389},
+  pages={114399},
+  year={2022},
+  publisher={Elsevier}
 }
 ```
