@@ -196,7 +196,7 @@ def postProcess(output, reso, xmin, xmax, ymin, ymax, num, fig_save_dir):
 
 if __name__ == '__main__':
     # grid size
-    M, N = 256, 256
+    M, N = 128, 128
     n_simu_steps = 30000
     dt = 0.0001 # maximum 0.003   
     dx = 1.0 / M
